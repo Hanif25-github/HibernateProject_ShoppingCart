@@ -24,3 +24,22 @@ It has all methods to access database table. After creating Configuration instan
 3. **addProductToUserCrt :** This method add product record to ArrayList bases on product id. It uses update() of hibernate to update saved object.
 4. **removeProductFromCart :** This method delete product record from ArrayList based on product id. It uses update() of hibernate to update saved object.
 5. **findAllProductInCart :** This method retrieves all product records stored in ArrayList<Product> Cart class based on Id. It uses get() of hibernate is used by sending hibernate class and id.
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Hanif25-github/HibernateProject_ShoppingCart.git 
+
+```
+
+2. Open the project in your favorite Java IDE.
+
+3. Configure your database connection details in the code, including the database URL, username, and password in a environment variable file (.env).
+
+4. Run the application and interact with the command-line interface to perform CRUD operations on student records.
+
+## Contributions
+
+Contributions to the project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
