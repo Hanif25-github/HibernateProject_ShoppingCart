@@ -4,7 +4,7 @@
 ### hibernate.cfg.xml [link](src/main/java/hibernate.cfg.xml)
 This is hibernate configuration file.It contains configuration details of Session Factory and resource of hibernate mapping file. It contains database connection details such as connection url, username, password, dialect, Driver class etc. I used Oracle Driver in this project.
 
-### pom.xml [link](src/main/java/hibernate.cfg.xml) ///
+### pom.xml [link](src/main/java/hibernate.cfg.xml)
 This is Project descriptor file which contains all the dependencies and additional two dependency are
 - Hibernate core (version: 5.4.33 final)
 - MySQL Connector/j (version: 8.3.0)
